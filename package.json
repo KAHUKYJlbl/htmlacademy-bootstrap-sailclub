@@ -1,14 +1,14 @@
 {
-  "name": "kekstagram",
+  "name": "sailclub",
   "version": "27.0.0",
   "private": true,
-  "description": "Личный проект «Кекстаграм» от HTML Academy",
+  "description": "Личный проект «Вместе под парусом» от HTML Academy",
   "repository": {
     "type": "git",
-    "url": "git@github.com:htmlacademy-javascript/2148477-kekstagram-27.git"
+    "url": "git@github.com:KAHUKYJlbl/htmlacademy-bootstrap-sailclub"
   },
   "bugs": {
-    "url": "https://github.com/htmlacademy-javascript/2148477-kekstagram-27/issues"
+    "url": "https://github.com/KAHUKYJlbl/htmlacademy-bootstrap-sailclub/issues"
   },
   "devDependencies": {
     "browser-sync": "2.27.10",
@@ -16,7 +16,9 @@
     "eslint-config-htmlacademy": "6.0.0"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
   "scripts": {
     "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
     "lint": "eslint js/"
