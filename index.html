@@ -13,20 +13,262 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&display=swap&subset=cyrillic,latin"> -->
-
-    <!-- <link rel="icon" href="favicon.ico"> -->
-    <!-- <link rel="icon" href="favicon/icon.svg" type="image/svg+xml"> -->
-    <!-- <link rel="apple-touch-icon" href="favicon/180.png"> -->
-    <!-- <link rel="manifest" href="manifest.webmanifest"> -->
+    <link rel="icon" href="favicon.ico">
   </head>
 
   <body class="page">
-    <header class="page-header"></header>
+    <header class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.svg" alt="Sail Club" width="64" height="68">
+          </a>
+        </div>
 
-    <main class="page-main"></main>
+        <ul class="nav nav-fill justify-content-end flex-nowrap">
+          <li class="nav-item">
+            <a class="nav-link active text-nowrap" aria-current="page" href="#">Наш клуб</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#">Регаты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#">Команда</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#">Обучение</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-nowrap" href="#">Контакты</a>
+          </li>
+        </ul>
 
-    <footer class="page-footer"></footer>
+        <div class="container col-sm-1 justify-content-end">
+          <a href="#">
+            <img src="img/user.svg" alt="user" width="36" height="36">
+          </a>
+        </div>
+      </nav>
+    </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <main class="container">
+      <section class="container hero">
+        <h1>Вместе под парусом</h1>
+        <img src="img/main-photo-1.jpg" class="img-fluid" alt="Шхуна во фьорде" width="1170" height="466">
+      </section>
+
+      <section class="container">
+        <h2 class="visually-hidden">Блог</h2>
+
+        <div class="container schedule-list">
+          <div class="row schedule-element">
+            <div class="col">
+              <img src="img/blog-photo-1.jpg" alt="Мужчина на яхте смотрит в бинокль" width="600" height="262">
+            </div>
+            <div class="col">
+              <span>20 октября - 19 апреля</span>
+              <h4>Стань частью команды</h4>
+              <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим капитаном и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
+            </div>
+          </div>
+
+          <div class="row schedule-element flex-row-reverse">
+            <div class="col">
+              <img src="img/blog-photo-2.jpg" alt="Дети на яхте едят мороженое" width="600" height="262">
+            </div>
+
+            <div class="col">
+              <span>16 июля - 23 июля</span>
+              <h4>Рожденные в воде</h4>
+              <p>Подарите детям настоящее приключение! День с морскими пиратами на корабле – это лучшая команда, веселые аниматоры, игры, соревнования, работа в команде и, конечно, море!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container rent">
+        <h2>Аренда яхты</h2>
+
+        <div class="container d-flex flex-row flex-wrap justify-content-center">
+          <div class="card flex-shrink-0">
+            <img src="img/photo-card-1.jpg" alt="" class="card-img-top" height="141" width="310">
+            <div class="card-body">
+              <h4 class="card-title">Катер</h4>
+              <p class="card-text"></p>
+              <ul class="card-text">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p>
+              <card-text></card-text>
+            </div>
+          </div>
+
+          <div class="card flex-shrink-0">
+            <img src="img/photo-card-2.jpg" alt="" class="card-img-top" height="141" width="310">
+            <div class="card-body">
+              <h4 class="card-title">Катер</h4>
+              <p class="card-text"></p>
+              <ul class="card-text">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p>
+              <card-text></card-text>
+            </div>
+          </div>
+
+          <div class="card flex-shrink-0">
+            <img src="img/photo-card-3.jpg" alt="" class="card-img-top" height="141" width="310">
+            <div class="card-body">
+              <h4 class="card-title">Катер</h4>
+              <p class="card-text"></p>
+              <ul class="card-text">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p>
+              <card-text></card-text>
+            </div>
+          </div>
+
+          <div class="card flex-shrink-0">
+            <img src="img/photo-card-4.jpg" alt="" class="card-img-top" height="141" width="310">
+            <div class="card-body">
+              <h4 class="card-title">Катер</h4>
+              <p class="card-text"></p>
+              <ul class="card-text">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p>
+              <card-text></card-text>
+            </div>
+          </div>
+
+          <div class="card flex-shrink-0">
+            <img src="img/photo-card-5.jpg" alt="" class="card-img-top" height="141" width="310">
+            <div class="card-body">
+              <h4 class="card-title">Катер</h4>
+              <p class="card-text"></p>
+              <ul class="card-text">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              <p>
+              <card-text></card-text>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container d-flex flex-row">
+      <div class="container footer-logo">
+        <img src="img/logo.svg" alt="">
+      </div>
+
+      <div class="container d-flex flex-row justify-content-between">
+        <div class="nav flex-column">
+          <h5>Компания</h5>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+        </div>
+
+        <div class="nav flex-column">
+          <h5>Яхт-клуб</h5>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+        </div>
+
+        <div class="nav flex-column">
+          <h5>Услуги</h5>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+        </div>
+
+        <div class="nav flex-column">
+          <h5>Регаты</h5>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
   </body>
